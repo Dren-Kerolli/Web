@@ -1,0 +1,262 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.Nav-bar{
+    width: 100%;
+    height: 5%;
+    display: inline-block;
+    background: black;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.Barbosa{
+    font-size: 25px;
+    padding-left: 3%;
+    margin-top: 2%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding-top: 4px;
+    
+}
+
+.Photos{
+    padding-left: 55%;
+
+}
+.Amenities,.About,.Contact{
+    padding-left: 1%;
+}
+.fa-brands{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.Book-Room{
+    background: gray;
+    padding:1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.7%;
+}
+
+.Exceptional-design{
+    width: 100%;
+    height: 30%;
+    background: black;
+}
+p{
+    font-size: 50px;
+    color: white;
+    text-align: justify;
+    padding-left: 3%;
+    font-weight: bold;
+}
+
+.living-room{
+  width: 100%;
+  height: 70%;
+  background-color: black;
+}
+img{
+    width: 94%;
+    padding-left: 3%;
+    height: 100%;
+}
+
+.About-Us{
+    width: 100%;
+    height: 60%;
+    background-color: black;
+    display: flex;
+    padding-top: 7%;
+    padding-left: 0%;
+}
+.cart-item{
+  
+   width: 69%;
+   height: 90%;
+   align-items: center;
+   padding-left: 1%;
+   animation-name: cart;
+   animation-duration: 2s;
+}
+@keyframes cart {
+    0%{width: 0px;}
+}
+.cart-item-1{
+    
+    width: 30%;
+    height: 90%;
+    text-align: justify;
+ 
+}
+.cart-item-2{
+    padding-left: 3%;
+    width: 30%;
+    height: 90%;
+    text-align: justify;
+    color:white;
+    font-size: 22px;
+ 
+}
+.cart-item-1,.Designed{
+    font-size: 22px;
+    color: white;
+ 
+    text-align: left;
+    margin-left: 0px;
+}
+
+
+h3{
+    padding-top: 20%;
+}
+.learn{
+    padding: 2%;
+    background: gray;
+    margin-top: 5%;
+}
+
+.View{
+    padding: 2%;
+    background: gray;
+    margin-top: 5%;
+}
+
+.Coment{
+    display: flex;
+    background: black;
+    color: white;
+    width: 100%;
+    height: 40%;
+}
+.Coment-1{
+    padding-left: 8%;
+    padding-top: 5%;
+}
+.Coment-2{
+    padding-left: 40%;
+    padding-top: 5%;
+}
+
+
+.Comment{
+    font-size: 17px;
+    font-weight:100;
+    font-style:unset;
+
+}
+
+
+.P-stay{
+    background: gray;
+    width: 100%;
+    height: 40%;
+    
+}
+.P-stay-1{
+  font-size: 30px;
+  text-align: center;
+  padding-top: 6%;
+  padding-left: 4%;
+}
+
+.book{
+    background: white;
+    padding: 1%;
+    margin-left: 47%;
+    color: gray;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.Footer{
+    width: 100%;
+    height: 30%;
+    background-color: black;
+    display: flex;
+}
+.fa-brands{
+    color: white;
+}
+
+.Footer-2{
+     padding-left: 60%;
+     padding-top: 5%;
+}
+
+.Footer-1{
+     padding-left: 3%;
+     padding-top: 5%;
+ }
+ .Made-with{
+    padding-left: 5%;
+    padding-top: 5%;
+ }
+ .Made{
+    font-size: 14px;
+ }
+
+.a-footer{
+    color: gray;
+    text-decoration: underline gray;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
