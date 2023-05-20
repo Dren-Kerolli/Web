@@ -6,7 +6,15 @@ if(strlen($_SESSION['id']==0)) {
  header('location:logout.php');
   } else{
 
-
 ?>
-<!-- Dashboardi i adminit
+
+<?php
+
+$sql=mysqli_query($con,"select * from tblpatient");
+$cnt=1;
+while($row=mysqli_fetch_array($sql))
+{
+?>
+<!-- menaxhimi i pacientave nga e adminit
+<?php } ?>
 <?php } ?>

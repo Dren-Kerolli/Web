@@ -55,5 +55,3 @@ if(isset($_POST['submit']))
 <!-- Regjistrimi
 
 <!-- Regjistrimi
-		
-<!-- formen e regjistrimit, validimin e keni

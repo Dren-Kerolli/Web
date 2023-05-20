@@ -6,7 +6,6 @@ if(strlen($_SESSION['id']==0)) {
  header('location:logout.php');
   } else{
 
-
 ?>
-<!-- Dashboardi i adminit
+<!-- Me bo ni pjes ku i selekton 2 data edhe ta shfaq mesazhet qe ju kan derg
 <?php } ?>

@@ -5,16 +5,17 @@ include('include/config.php');
 if(strlen($_SESSION['id']==0)) {
  header('location:logout.php');
   } else{
+
+
 ?>
 
-
 <?php
-$sql=mysqli_query($con,"select doctors.doctorName as docname,users.fullName as pname,appointment.*  from appointment join doctors on doctors.id=appointment.doctorId join users on users.id=appointment.userId ");
+$sql=mysqli_query($con,"select * from tblcontactus where IsRead is not null");
 $cnt=1;
 while($row=mysqli_fetch_array($sql))
 {
 ?>
-
-										
+<!-- te shfaqen Vetem ato mesazhe te cilat i ka par admini
+											
 <?php } ?>
 <?php } ?>

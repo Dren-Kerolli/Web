@@ -4,13 +4,13 @@ error_reporting(0);
 include("include/config.php");
 //Checking Details for reset password
 if(isset($_POST['submit'])){
-$name=$_POST['fullname'];
+$contactno=$_POST['contactno'];
 $email=$_POST['email'];
-$query=mysqli_query($con,"select id from  users where fullName='$name' and email='$email'");
+$query=mysqli_query($con,"select id from  doctors where contactno='$contactno' and docEmail='$email'");
 $row=mysqli_num_rows($query);
 if($row>0){
 
-$_SESSION['name']=$name;
+$_SESSION['cnumber']=$contactno;
 $_SESSION['email']=$email;
 header('location:reset-password.php');
 } else {
@@ -24,4 +24,4 @@ echo "<script>window.location.href ='forgot-password.php'</script>";
 ?>
 
 
-<!-- forget passowrd qe ta dergon ne email
+<!-- forget password
